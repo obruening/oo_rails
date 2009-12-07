@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  bestelldatum: 2009-10-22
+  name: MyString
+
+two:
+  bestelldatum: 2009-10-22
+  name: MyString

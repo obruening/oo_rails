@@ -1,0 +1,50 @@
+<%= render :partial => 'links' %>
+
+<p>
+  <b>Order Date:</b>
+  <%=h @order.order_date %>
+</p>
+
+<p>
+  <b>Customer:</b>
+  <%=h @order.customer %>
+</p>
+
+<p>
+<table border="1">
+  <colgroup>
+      <col width="100" />
+      <col width="100" />
+      <col width="100" />
+      <col width="100" />
+   </colgroup>
+  <thead>
+    <tr>
+      <th align="center">Item</th>
+      <th align="center">Amount</th>
+      <th align="center">Unit Price</th>
+      <th align="center">Total Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @order.items.find(:all, :order => 'id asc').each do |item| %>
+      <tr>
+        <td>
+          <%= item.name %>
+        </td>
+        <td align="right">
+          <%= item.amount %>
+        </td>
+        <td align="right">
+          <%= number_to_currency(item.unit_price, :unit => '€') %>
+        </td>
+        <td align="right">
+          <%= number_to_currency(item.total_price, :unit => '€') %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</p>
+
+<%= render :partial => 'links' %>

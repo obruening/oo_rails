@@ -1,0 +1,23 @@
+<p>
+  <b>Order:</b>
+  <%=h @item.order_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @item.name %>
+</p>
+
+<p>
+  <b>Menge:</b>
+  <%=h @item.menge %>
+</p>
+
+<p>
+  <b>Preis:</b>
+  <%=h @item.preis %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

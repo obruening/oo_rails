@@ -1,0 +1,9 @@
+log/*.log
+Schemas/*
+artikel/*
+doc/api
+doc/app
+nbproject/*
+set_path.bat
+tmp/*
+jars/jodconverter-2.2.2/*

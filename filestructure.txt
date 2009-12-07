@@ -1,0 +1,23 @@
+order_zip/
+|-- Configurations2
+|   |-- accelerator
+|   |   `-- current.xml
+|   |-- floater
+|   |-- images
+|   |   `-- Bitmaps
+|   |-- menubar
+|   |-- popupmenu
+|   |-- progressbar
+|   |-- statusbar
+|   `-- toolbar
+|-- META-INF
+|   `-- manifest.xml
+|-- Thumbnails
+|   `-- thumbnail.png
+|-- content.xml
+|-- meta.xml
+|-- mimetype
+|-- settings.xml
+`-- styles.xml
+
+

@@ -1,0 +1,21 @@
+use open office and the odf-report gem to produce state of the art
+pdf documents. this example rails app shows you the way.
+
+prerequisites
+=============
+- JRuby
+- http://github.com/sandrods/odf-report
+- download the jodconverter (http://www.artofsolving.com/opensource/jodconverter)
+  and extract it to the {RAILS_ROOT}/jars directory
+- install open office and start it in headless mode
+
+  mac: ./soffice -headless -accept="socket,host=0,port=8100,tcpNoDelay=1;urp"
+  win: soffice -headless -accept=socket,host=0,port=8100,tcpNoDelay=1;urp
+
+more information
+================
+this app is featured in the december issue of the german railsway magazine
+(http://it-republik.de/railsway).
+
+
+have fun !

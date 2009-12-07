@@ -1,0 +1,8 @@
+development:
+  adapter: jdbcmysql
+  encoding: utf8
+  database: oo_rails
+  username: root
+  password:
+  host: 127.0.0.1
+
